@@ -14,7 +14,21 @@ export default function ProfessionalItem({
       <Heading className="text-balance" level={3}>
         {organization}
       </Heading>
-
+       {/* titles.map((title) => 
+            <li className ='group-[flex gap-6] key={title.title}:>)
+            <div 
+                className={cn('flex flex-col items-center gap-[6px]')
+                hidden: titles.length === 1,
+       })} 
+              export default function ProfessionalItem({body,organization, titles,}:
+              ProfessionalExperience): ReactNode{ 
+              return (<article className="space-y-4" 
+              <Heading className="text-balance" level={3}
+              {organization})
+              </Heading>}
+              <ul>
+              {titles.map((title) =>) {
+              }})*/}
       <ul>
         {titles.map((title) => (
           <li className="group flex gap-6" key={title.title}>
@@ -29,7 +43,8 @@ export default function ProfessionalItem({
 
             <div className="space-y-3 pb-4 group-last:pb-0">
               <div className="text-lg leading-none font-bold">
-                {title.title}
+                {title.title} 
+                
               </div>
               <div className="text-neutral-11 text-sm leading-none tracking-wide">
                 {title.startDate}–{title.endDate ?? 'Current'}

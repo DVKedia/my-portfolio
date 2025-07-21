@@ -30,9 +30,16 @@ export const generateMetadata = async (): Promise<Metadata> => {
   const title = `Résumé | ${fullName}`;
   const description = `Professional résumé for ${fullName}.`;
 
+  // export const generateMetadata = async () : Promise<Metadata> => {
+  // const requestHeaders = await headers();
+  // const baseURL = '${protocol}://${host ?? deployURL ?? ''}'}
+  // const siteName = '${fullName} Professional Resume';
+  // cont title = 'Resume | ${fullName}';
+  // const description = 'Professional resume for ${fullName}.' 
+
   return {
     applicationName: siteName,
-    authors: { name: fullName },
+    authors: { name: fullName }, 
     creator: fullName,
     description,
     generator: 'Next.js',
