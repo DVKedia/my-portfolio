@@ -2,7 +2,7 @@
 
 A résumé built especially with software professionals in mind. Impress your potential employer with a beautiful and incredibly fast résumé website, or generate a PDF for email and print.
 
-[See an example](https://nextjs-resume.netlify.app/)
+[See an example](https://my-portfolio-alpha-murex-79.vercel.app/)
 
 Your résumé can also generate a secure URL that will display information not accessible on the public URL. The secure version can include private information such as email, phone number, and mailing address. You can send the private link to a potential employer or use it to generate a more complete PDF for yourself.
 
@@ -67,23 +67,6 @@ Open the project in your favorite editor, and go to the `edit-me/config/` folder
 - `pdfTheme`: `'light' | 'dark'`. Your PDF will be generated in either a light or a dark variant.
 
 You'll also find `links.ts` which generates external links at the bottom of the document. You can use any icon from [Simple Icons](https://simpleicons.org/) alongside these links.
-
-### Color Palette Examples
-
-The résumé generator provides 19 accent color palettes and 6 neutral color palettes out-of-the-box. Below are screenshots from a few variations in both light and dark mode.
-
-| Light Mode                                                                     | Dark Mode                                                                    |
-| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| **BLUE/SLATE** ![Blue accent light mode](/docs/screenshots/Blue-LightMode.png) | **BLUE/SLATE** ![Blue accent dark mode](/docs/screenshots/Blue-DarkMode.png) |
-| **RUBY/MAUVE** ![Ruby accent light mode](/docs/screenshots/Ruby-LightMode.png) | **RUBY/MAUVE** ![Ruby accent dark mode](/docs/screenshots/Ruby-DarkMode.png) |
-
-### OG Image Examples
-
-Your accent, neutral, and color scheme preferences also apply to the generated OG image.
-
-| Light Mode                                                                     | Dark Mode                                                                       |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
-| **BLUE/SLATE** ![Blue accent light mode OG image](/docs/og/Blue-LightMode.png) | **BLUE/SLATE** ![Blue accent dark mode share image](/docs/og/Blue-DarkMode.png) |
 
 ### Set Up Your CMS
 
